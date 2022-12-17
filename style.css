@@ -28,6 +28,9 @@ div.highlight {
     text-align: center;
 }
 
+.animated-element {
+    transition: all 0.5s ease-in-out;
+}
 .jumbotron .btn {
     margin-top: 1rem;
 }
