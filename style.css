@@ -1,0 +1,46 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+div.highlight {
+    background-color: #CE9969;
+}
+
+.jumbotron {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    color: white;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.jumbotron p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.jumbotron .btn {
+    margin-top: 1rem;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        /* Add some basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Add a transition effect for the hover state of the portfolio items */
+        .portfolio-item {
+            transition: transform 0.2s;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="main.html">Personal Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="main.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h1>My Portfolio</h1>
+    <h2>About Me</h2>
+    <p>Hi, my name is [Your Name] and I'm a [Your Profession] based in [Your Location]. I have always been passionate about [Your Passion] and that's what inspired me to pursue a career in [Your Profession]. Over the years, I have gained a wealth of knowledge and experience in [Your Skills and Experiences]. I'm always looking for new opportunities to learn and grow, and I believe that my skills and experience make me a valuable asset to any team. Thank you for visiting my portfolio, I hope you enjoy looking through my work.</p>
+    <h2>Experience</h2>
+    <ul>
+        <li>
+            <h3>[Company Name]</h3>
+            <p>[Job Title]</p>
+            <p>[Job Description]</p>
+        </li>
+        <!-- Add additional experience items here -->
+    </ul>
+    <h2>Education</h2>
+    <ul>
+        <li>
+            <h3>[Degree] - [Institution]</h3>
+            <p>[Major]</p>
+        </li>
+        <!-- Add additional education items here -->
+    </ul>
+    <h2>Skills</h2>
+    <ul>
+        <li>[Skill 1]</li>
+        <li>[Skill 2]</li>
+        <!-- Add additional skills here -->
+    </ul>
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <img src="[Image URL]" alt="[Project Name]">
+            <h3>[Project Name]</h3>
+            <p>[Project Description]</p>
+        </div>
+        <!-- Add additional portfolio items here -->
+    </div>
+</div>
+</body>
+</html>
